@@ -1,0 +1,33 @@
+{
+  "testName": "Successful Login Test",
+  "status": "passed",
+  "credentials": {
+    "username": "tomsmith",
+    "password": "SuperSecretPassword!"
+  },
+  "postLoginUrl": "https://the-internet.herokuapp.com/secure",
+  "successMessage": "You logged into a secure area!\n            ×",
+  "screenshots": [
+    {
+      "name": "Login Page",
+      "path": "01-login-page.png"
+    },
+    {
+      "name": "Username Entered",
+      "path": "02-username-entered.png"
+    },
+    {
+      "name": "Password Entered",
+      "path": "03-password-entered.png"
+    },
+    {
+      "name": "After Login Click",
+      "path": "04-after-login-click.png"
+    },
+    {
+      "name": "Success Page",
+      "path": "05-success-page.png"
+    }
+  ],
+  "timestamp": "1/12/2025, 11:21:54 pm"
+}
